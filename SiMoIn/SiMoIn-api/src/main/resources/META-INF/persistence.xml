@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.hatapp.Comandas_SiMoIn-api_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.utb.simoin.entities.Perfil</class>
+    <class>com.utb.simoin.entities.ValorPeriodo</class>
+    <class>com.utb.simoin.entities.Periodo</class>
+    <class>com.utb.simoin.entities.Indicador</class>
+    <class>com.utb.simoin.entities.Vista</class>
+    <class>com.utb.simoin.entities.Estrategia</class>
+    <class>com.utb.simoin.entities.Proceso</class>
+    <class>com.utb.simoin.entities.Permiso</class>
+    <class>com.utb.simoin.entities.Usuario</class>
+    <class>com.utb.simoin.entities.Meta</class>
+    <class>com.utb.simoin.entities.Vision</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/SiMoIn?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.password" value="Luff1.kun"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+    </properties>
+  </persistence-unit>
+</persistence>
